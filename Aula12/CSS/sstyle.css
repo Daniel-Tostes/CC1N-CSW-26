@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+        *{
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box
+        }
+
+        body{
+            height: 100vh;
+            background-color: rgb(19, 19, 19);
+        }
+
+        .boxtotal{
+            display: block;
+            margin: auto;
+            background-color: rgb(36, 36, 36);
+            padding: 0px;
+            width: 850px;
+            border-radius: 25px;
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+
+        .cabecalho{
+            display: block;
+            margin: auto;
+            text-align: center;
+            color: rgb(6, 33, 85);
+            background-color: rgba(0, 79, 197, 0.747);
+            width: 633px;
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.459);
+        }
+
+        .box{
+            display:block;
+            margin: auto;
+            padding: 25px;
+            width: 670px;
+            border-radius: 25px;
+            background-color: rgb(22, 22, 22);
+        }
+
+        .box h1{
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .box p{
+            color: rgb(29, 29, 29);
+        }
+        .box button{
+            padding: 20px 15px;
+            border-radius: 30px;
+            text-decoration:none;
+            cursor: pointer;
+            border: 0; 
+            margin-left: 50px;
+            background-color: rgb(192, 192, 192);
+            letter-spacing: 1.5px;
+            font-size: 15px;
+        }
+
+        #buttom:hover{
+            background-color: rgb(255, 208, 0);
+            transition: 0.3s;
+        }
+
+        #botton:active{
+            background-color: rgb(255, 208, 0);
+            box-shadow: 0px 10px 550px 150px rgb(255, 208, 0);
+            transition: 0.4s;
+        }
+        .box a{
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .box2{
+            display:block;
+            margin: auto;
+            margin-top: 15px;
+            padding: 25px;
+            width: 670px;
+            border-radius: 25px;
+            background-image: linear-gradient(90deg, rgb(0, 110, 255), rgb(218, 0, 247));
+        }
+
+        .box2 h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        .box2 button{
+            padding: 20px 26px;
+            border-radius: 30px;
+            text-decoration:none;
+            margin-top: 20px;
+            cursor: pointer;
+            border: 0;
+            margin-left: 24px;
+            background-color: rgba(255, 255, 255, 0.192);
+            letter-spacing: 1.5px;
+            font-size: 15px;
+            color: white;
+            transition: .67s;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .box2 a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        .box2 button::before{
+            content: '♫ ';
+        }
+        .box2 button::after{
+            content: '✶';
+        }
+        
+        .box2 button:hover{
+            background-color: transparent;
+            border: 1.5px solid rgb(255, 255, 255);
+            border-radius: 30px;
+            transition: 0.4s;
+            letter-spacing: 2.3px;
+        }
+        
+        #spotify:hover{
+            color: rgb(8, 177, 2);
+        }
+
+         #youtube:hover{
+            color: rgb(255, 69, 69);
+            
+        }
+        
+        #amazon:hover{
+            color: rgb(255, 217, 0);
+            transition: .67s;
+        }
+
+        .box2 button:hover .music{
+            color: rgb(0, 0, 0);
+            transition: .8s;
+        }
